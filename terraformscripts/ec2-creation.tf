@@ -7,7 +7,7 @@ resource "aws_instance" "AWSInstance"{
   key_name = "devops"
   security_groups = ["launch-wizard-3"]
   tags = {
-  Name = "tomservers"
+  Name = "tomcatservers"
   } 
 }
 
